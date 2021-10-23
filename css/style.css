@@ -117,7 +117,9 @@ h6,
 .item .item-wrap > .work-info h3 {
   font-size: 20px;
   margin-bottom: 0;
-  color:rgb(0, 0, 0)
+  color:#fff;
+  font-weight: bold;
+  /* text-shadow: #fff 2px 0 10px; */
 }
 
 .item .item-wrap > .work-info span {
@@ -128,12 +130,12 @@ h6,
 
 .item .item-wrap:hover {
   text-decoration: none;
-  opacity: .5;
 }
 
 .item .item-wrap:hover img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  opacity: .25;
 }
 
 .item .item-wrap:hover:after {
@@ -505,10 +507,10 @@ h6,
 
 .social a {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: #f8f9fa;
+  background: #eeeeee;
   position: relative;
   text-align: center;
   color: #0d1e2d;
