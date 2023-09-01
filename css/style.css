@@ -113,7 +113,7 @@ h6,
   opacity: 0;
   visibility: hidden;
   margin-top: 20px;
-  transition: .3s all ease;
+  transition: .1s all ease;
 }
 
 .item .item-wrap > .work-info h3 {
